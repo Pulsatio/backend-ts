@@ -29,7 +29,6 @@ This is a [Moleculer](https://moleculer.services/)-based microservices project w
     ```dotenv
     DATABASE_URL=postgres://user:pass@localhost:5432/dbname
     JWT_SECRET=your_jwt_secret
-    PORT=3000
     ```
 3. **Run in development**
     ```bash

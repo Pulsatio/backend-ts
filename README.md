@@ -17,7 +17,7 @@ This is a [Moleculer](https://moleculer.services/)-based microservices project w
 -   **Automatic CRUD**  
     `products` and any future entities use a reusable mixin for full CRUD actions
 -   **Database Schema Management**  
-    TypeORM entities in `/src/models`, migrations in `/src/migrations`, plus auto-sync in development
+    TypeORM entities in `/models`, migrations in `/migrations`, plus auto-sync in development
 
 ## Usage
 
@@ -94,3 +94,7 @@ This is a [Moleculer](https://moleculer.services/)-based microservices project w
 -   `npm test`: Run tests & generate coverage report
 -   `npm run dc:up`: Start the stack with Docker Compose
 -   `npm run dc:down`: Stop the stack with Docker Compose
+
+## TO-DO
+
+-   Enable Swagger UI on startup so that /api/docs automatically serves the live OpenAPI specification and interactive docs.

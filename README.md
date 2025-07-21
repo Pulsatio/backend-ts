@@ -54,10 +54,11 @@ This is a [Moleculer](https://moleculer.services/)-based microservices project w
     -d '{"email":"test@example.com","password":"Secret123"}'
     ```
 
-    Response: ```json
-    { "token": "eyJhbGciOiJIUzI1Ni…" }
+    Response:
 
-    ````
+    ```json
+    { "token": "eyJhbGciOiJIUzI1Ni…" }
+    ```
 
     - Create a new product
 
@@ -66,7 +67,7 @@ This is a [Moleculer](https://moleculer.services/)-based microservices project w
     -H "Content-Type: application/json" \
     -H "Authorization: Bearer <YOUR_TOKEN>" \
     -d '{"name":"Sample Item","price":19.99}'
-    ````
+    ```
 
     - List all product
 
